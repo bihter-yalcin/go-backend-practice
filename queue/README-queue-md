@@ -1,0 +1,6 @@
+# FIFO Job Queue
+
+`Enqueue` adds a job to the back of the queue. `Dequeue` removes the
+oldest job and returns it. If the queue is empty, it returns `("", false)`.
+
+Run `go test -v ./queue` from the repository root.
